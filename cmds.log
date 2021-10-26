@@ -1,0 +1,1000 @@
+  569  crontab -l
+  570  vi cronfile 
+  571  crontab cronfile
+  572  crontab -l
+  573  ls
+  574  head 043935806X.LATEST.txt 
+  575  head 043935806X.20211014_011604.txt 
+  576  ls -latr
+  577  rm 043935806X.LATEST.txt 
+  578  ls -latr
+  579  ln -s 043935806X.20211014_011604.txt 043935806X.LATEST.txt
+  580  ls -latr
+  581  crontab -l
+  582  ls 
+  583  head 043935806X.LATEST.txt 
+  584  awk 'BEGIN { total = 0 }{ total += $1 } END { print total/NR }' 043935806X.LATEST.txt &> 043935806X.AVGRATING.txt
+  585  ls
+  586  ls -latr
+  587  cat 043935806X.AVGRATING.txt 
+  588  vi 043935806X.LATEST.txt 
+  589  ls -latr
+  590  vi 043935806X.20211014_011604.txt 
+  591  crontab -l
+  592  ls -latr
+  593  cat 043935806X.AVGRATING.txt 
+  594  ls -latr
+  595  vi cronfile 
+  596  crontab -l
+  597  ls
+  598  ls -latr
+  599  cat 043935806X.AVGRATING.txt 
+  600  ls -latr
+  601  grep CRON /var/log/syslog
+  602  ls -latr
+  603  cat 043935806X.AVGRATING.txt 
+  604  vi cronfile 
+  605  ls -latr
+  606  ls
+  607  mkdir worksheet6
+  608  cd worksheet6
+  609  script ws6.txt
+  610  crontab -l
+  611  crontab -e
+  612  exit
+  613  mkdir PRODUCTS
+  614  export DATETIME=`date "+%Y%m%d_%H%M%S"`
+  615  cp ../assignment2/PRODUCTS/043935806X.txt PRODUCTS/043935806X.$DATETIME.txt
+  616  ls PRODUCTS/
+  617  cd PRODUCTS
+  618  vi 043935806X.20211014_222008.txt 
+  619  ln -s 043935806X.20211014_011604.txt 
+  620  043935806X.LATEST.txt
+  621  ln -s 043935806X.20211014_011604.txt 043935806X.LATEST.txt
+  622  ls -latr
+  623  rm 043935806X.20211014_011604.txt 
+  624  ls -latr
+  625  rm 043935806X.LATEST.txt 
+  626  ls -latr
+  627  ln -s 043935806X.20211014_222008.txt 043935806X.LATEST.txt 
+  628  ls -latr
+  629  vi cronfile
+  630  crontab cronfile 
+  631  crontab -l
+  632  ls -latr
+  633  cat 043935806X.AVGRATING.txt 
+  634  ls
+  635  worksheet6
+  636  cd worksheet6
+  637  ls
+  638  cd PRODUCTS/
+  639  ls
+  640  crontab -l
+  641  crontab -r
+  642  crontab -l
+  643  vi cronfile 
+  644  rm 043935806X.AVGRATING.txt 
+  645  crontab cronfile
+  646  crontab -l
+  647  ls
+  648  ls -latr
+  649  crontab -r
+  650  vi cronfile 
+  651  crontab cronfile
+  652  crontab -l
+  653  ls -latr
+  654  cat 043935806X.AVGRATING.txt 
+  655  head 043935806X.AVGRATING.txt 
+  656  crontab -r
+  657  awk 'BEGIN { total = 0 }{ total += $1 } END { print total/NR }'~/worksheet6/PRODUCTS/043935806X.LATEST.txt &> ~/worksheet6/PRODUCTS/043935806X.AVGRATING.txt
+  658  cat 043935806X.AVGRATING.txt 
+  659  vi cronfile 
+  660  cat cron
+  661  cat cronfile 
+  662  awk 'BEGIN { total = 0 }{ total += $1 } END { print total/NR }' ~/worksheet6/PRODUCTS/043935806X.LATEST.txt &> ~/worksheet6/PRODUCTS/043935806X.AVGRATING.txt
+  663  cat 043935806X.AVGRATING.txt 
+  664  rm 043935806X.AVGRATING.txt 
+  665  crontab cronfile 
+  666  ls -latr
+  667  cat 043935806X.A
+  668  cat 043935806X.AVGRATING.txt 
+  669  head 043935806X.AVGRATING.txt 
+  670  ls -latr
+  671  head 043935806X.AVGRATING.txt 
+  672  ls -latr
+  673  crontab -l
+  674  vi cronfile
+  675  crontab -r
+  676  crontab -l
+  677  awk 'BEGIN { total = 0 }{ total += $1 } END { print total/NR }' ~/worksheet6/PRODUCTS/043935806X.LATEST.txt &> ~/worksheet6/PRODUCTS/043935806X.AVGRATING.txt
+  678  cat 043935806X.AVGRATING.txt 
+  679  vi cron
+  680  vi cronfile 
+  681  crontab cronfile
+  682  crontab -l
+  683  ps
+  684  ps -a
+  685  ls
+  686  crontab -r
+  687  crontab -l
+  688  vi cronfile 
+  689  cp cronfile cronfile2
+  690  vi cronfile2
+  691  crontab cronfile2
+  692  crontab -l
+  693  crontab -r
+  694  crontab -l
+  695  vi cronfile2
+  696  crontab cronfile2
+  697  crontab -l
+  698  cat AVG.txt 
+  699  crontab -r
+  700  vi cronfile2
+  701  rm AVG.txt 
+  702  crontab cronfile2
+  703  cat AVG.txt 
+  704  vi cronfile
+  705  head cronfile
+  706  crontab -r
+  707  head cronfile
+  708  crontab cronfile
+  709  crontab -l
+  710  ls -latr
+  711  cat 043935806X.AVGRATING.txt 
+  712  crontab -r
+  713  cd ../..
+  714  rm -rf worksheet6
+  715  ls
+  716  rm 043935806X.AVGRATING.txt 
+  717  ls
+  718  mkdir worksheet6
+  719  cd worksheet6
+  720  script ws6.txt
+  721  history > cmds.log
+  722  perl -pe 's/\x1b\[[0-9;]*[mG]//g' ws6.txt > ws6.txt.clean
+  723  tr -cd '\11\12\15\40-\176' < ws6.txt.clean > ws6.txt.clean2
+  724  sed -i "s///g" ws6.txt.clean2
+  725  vi ws6.txt.clean2
+  726  git init
+  727  git add cmds.log 
+  728  git add ws6.txt.clean2
+  729  git status
+  730  git commit -m "Worksheet 6"
+  731  git remote add origin https://github.com/jihanyehia/worksheet6.git
+  732  git branch -M main
+  733  git push -u origin main
+  734  mkdir worksheet7
+  735  rm -r worksheet7/
+  736  ls
+  737  ..
+  738  cd ..
+  739  ls
+  740  mkdir worksheet7
+  741  cd worksheet7
+  742  head ../amazon_reviews_us_Books_v1_02.tsv 
+  743  exit
+  744  ls
+  745  cd worksheet7
+  746  ls
+  747  vi sedfile
+  748  awk '$4==043935806X {print $14}  ../amazon_reviews_us_Books_v1_02.tsv | sed -f sedfile > 043935806X_review_body.txt
+  749  awk '$4==043935806X {print $14}  ../amazon_reviews_us
+  750  ls
+  751  awk '$4==043935806X {print $14}  ../amazon_reviews_us_Books_v1_02.tsv > 043935806X.txt
+  752  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk '$4==043935806X {print $14}  > 043935806X_review_body.txt
+  753  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk '$4==043935806X {print $14}
+  754  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk '$4==043935806X {print $14}'  > 043935806X_review_body.txt
+  755  awk '$4=043935806X {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | sed -f sedfile > 043935806X_review_body.txt
+  756  head 043935806X_review_body.txt 
+  757  cat 043935806X_review_body.txt 
+  758  cat ../amazon_reviews_us_Books_v1_02.tsv | grep 043935806X | head
+  759  awk '$4==043935806X {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  760  awk '/043935806X/ {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  761  awk '$4==043935806X {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  762  awk '/$4=043935806X/ {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  763  awk '/$4==043935806X/ {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  764  vi ../amazon_reviews_us_Books_v1_02.tsv | grep 043935806X | head
+  765  ps
+  766  kill 737548
+  767  ps
+  768  kill --help
+  769  exit
+  770  cd worksheet7
+  771  ls
+  772  ps
+  773  less ../amazon_reviews_us_Books_v1_02.tsv
+  774  vi ../amazon_reviews_us_Books_v1_02.tsv
+  775  ps
+  776  kill -f 737709
+  777  kill -9 737709
+  778  ps
+  779  cat ../amazon_reviews_us_Books_v1_02.tsv | grep 043935806X | head > try.txt
+  780  vi try.txt 
+  781  awk '/043935806X/ {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  782  head ../amazon_reviews_us_Books_v1_02.tsv 
+  783  vi try.txt 
+  784  awk -F "	" '/043935806X/ {print $14}'  ../amazon_reviews_us_Books_v1_02.tsv | head
+  785  head try.txt 
+  786  awk -F "	" '/043935806X/ {print $14}'  try.txt | head
+  787  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  788  head 043935806X_review_body.txt 
+  789  vi sedfile 
+  790  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  791  head 043935806X_review_body.txt 
+  792  head try.txt 
+  793  vi sedfile 
+  794  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  795  head 043935806X_review_body.txt 
+  796  head -n 1 043935806X_review_body.txt 
+  797  head -n 1 try.txt 
+  798  ls
+  799  rm try.txt sedfile 043935806X_review_body.txt 
+  800  ls
+  801  ls .
+  802  ls -latr
+  803  vi sed file
+  804  ls
+  805  ls -latr
+  806  script ws7.txt
+  807  vi sedfile
+  808  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  809  cd worksheet7
+  810  head 043935806X_review_body.txt 
+  811  tail 043935806X_review_body.txt 
+  812  vi ws7.txt 
+  813  rm -rf weeksheet7
+  814  ls
+  815  rm -rf worksheet7
+  816  ls
+  817  mkdir worksheet7
+  818  cd worksheet7
+  819  script ws7.txt
+  820  vi sedfile
+  821  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  822  vi sedfile
+  823  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "Ctrl-V TAB" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  824  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  825  vi sedfile 
+  826  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  827  head 043935806X_review_body.txt
+  828  vi 043935806X_review_body.txt 
+  829  vi sedfile 
+  830  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  831  head 043935806X_review_body.txt 
+  832  vi sedfile
+  833  sed -f sedfile ../amazon_reviews_us_Books_v1_02.tsv | awk -F "	" '/043935806X/ {print $14}' > 043935806X_review_body.txt
+  834  head 043935806X_review_body.txt 
+  835  cd ..
+  836  ls
+  837  mkdir assignment3
+  838  cd assignment3
+  839  mkdir CUSTOMERS
+  840  mkdir PRODUCTS
+  841  ls ../assignment2
+  842  cp ../assignment2/100_customer_ids.txt 100_customer_ids.txt
+  843  ls
+  844  cp ../assignment2/100_product_ids.txt 100_product_ids.txt
+  845  ls
+  846  cd CUSTOMERS/
+  847  cd ..
+  848  head -2 ../amazon_reviews_us_Books_v1_02.tsv 
+  849  for num in `tr -s " " < 100_customer_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > CUSTOMERS/$num.txt ; done
+  850  ls CUSTOMERS/
+  851  for num in `tr -s " " < 100_product_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > PRODUCTS/$num.txt ; done
+  852  ls PRODUCTS/
+  853  head CUSTOMERS/20595117.txt
+  854  exit
+  855  script ws7.txt
+  856  perl -pe 's/\x1b\[[0-9;]*[mG]//g' ws7.txt > ws7.txt.clean
+  857  tr -cd '\11\12\15\40-\176' < ws7.txt.clean > ws7.txt.clean2
+  858  sed -i "s///g" ws7.txt.clean2
+  859  vi ws7.txt.clean2
+  860  rm ws7.txt ws7.txt.clean ws7.txt.clean2
+  861  ls
+  862  script ws7.txt
+  863  perl -pe 's/\x1b\[[0-9;]*[mG]//g' ws7.txt > ws7.txt.clean
+  864  tr -cd '\11\12\15\40-\176' < ws7.txt.clean > ws7.txt.clean2
+  865  sed -i "s///g" ws7.txt.clean2
+  866  vi ws7.txt.clean2
+  867  history > cmds.log
+  868  git init
+  869  git add cmds.log 
+  870  git add ws7.txt.clean2
+  871  git commit -m "Worksheet7"
+  872  git remote add origin https://github.com/jihanyehia/worksheet7.git
+  873  git branch -M main
+  874  git push -u origin main
+  875  exit
+  876  cd worksheet7
+  877  ls
+  878  rm 043935806X_review_body.txt sedfile ws7.txt 
+  879  tmux
+  880  cd ..
+  881  ls assignment3
+  882  ls assignment3/PRODUCTS/
+  883  exit
+  884  ls
+  885  cd assignment3
+  886  ls
+  887  ls CUSTOMERS/
+  888  head CUSTOMERS/20595117.txt 
+  889  cd CUSTOMERS/
+  890  for f in *.txt; do awk '{$2 = $2 / $3}'; done
+  891  tmux
+  892  ls -latr temp
+  893  ls -lahtr temp
+  894  wget https://versaweb.dl.sourceforge.net/project/gnuplot/gnuplot/5.4.2/gnuplot-5.4.2.tar.gz
+  895  ls
+  896  mv gnuplot-5.4.2.tar.gz ~/.
+  897  tmux -l
+  898  ls tmux
+  899  tmux ls
+  900  tmux attach -t 2
+  901  gnuplot
+  902  cd gnuplot-5.4.2/
+  903  ls
+  904  make check
+  905  exit
+  906  gedit
+  907  cd gnuplot-5.4.2/
+  908  make check
+  909  ps
+  910  ll
+  911  la
+  912  echo $PATH
+  913  gnuplot
+  914  vim Makefile
+  915  la
+  916  make clean
+  917  la
+  918  make
+  919  la
+  920  cd ..
+  921  ll
+  922  rm -rf gnuplot-5.4.2/
+  923  la
+  924  ll
+  925  tar -xvzf gnuplot-5.4.2.tar.gz 
+  926  cd gnuplot-5.4.2/
+  927  ls
+  928  ./configure
+  929  ls
+  930  mkdir worksheet5
+  931  cd worksheet5
+  932  script ws5.txt
+  933  cd gnuplot-5.4.2/
+  934  ll
+  935  cd ..
+  936  rm -r gnuplot-5.4.2/
+  937  ll
+  938  tar -xvzf gnuplot-5.4.2.tar.gz 
+  939  tmux attach -t 2
+  940  cd gnuplot-5.4.2/
+  941  make check
+  942  gnuplot
+  943  grep gnuplot
+  944  ls
+  945  cd man
+  946  ls
+  947  cd ..
+  948  cat README 
+  949  ls
+  950  cat FAQ.pdf 
+  951  ls
+  952  cd src
+  953  ls
+  954  gnuplot
+  955  cat gnuplot
+  956  ls
+  957  cd ..
+  958  ls
+  959  grep gnuplot
+  960  make install
+  961  gnuplot
+  962  gnuplot > set terminal
+  963  apt install gnuplot-x11
+  964  cd ..
+  965  gnuplot
+  966  ll
+  967  cd gnuplot-5.4.2/
+  968  ll
+  969  make check
+  970  ll
+  971  cd docs/
+  972  ll
+  973  ll *.pdf
+  974  acroread gnuplot.pdf 
+  975  mkdir temp
+  976  cd temp
+  977  cp -r ../3*.txt .
+  978  ls
+  979  cp -r ../2*.txt .
+  980  ls
+  981  for f in *.txt; do awk '{$2 = $2 / $3}'; done
+  982  awk '{print $2; $2 = $2 / $3; print $2}' 20595117.txt 
+  983  head 20595117.txt 
+  984  awk '/$3!=0/{print $2; $2 = $2 / $3; print $2}' 20595117.txt 
+  985  awk '/$3!=0/ {print $2; $2 = $2 / $3; print $2}' 20595117.txt 
+  986  head 20595117.txt 
+  987  awk -v '$3!=0' {print $2; $2 = $2 / $3; print $2}' 20595117.txt
+  988  head 20595117.txt 
+  989  awk -v '$3!=0 {print $2; $2 = $2 / $3; print $2}' 20595117.txt
+  990  awk '{if ($6 + 0 != 0) $2 = $2 / $3}' 20595117.txt
+  991  head 20595117.txt 
+  992  awk -F"	" '{if ($6 + 0 != 0) $2 = $2 / $3}' 20595117.txt
+  993  head 20595117.txt 
+  994  awk -F"	" '{if ($3 + 0 != 0) $2 = $2 / $3}' 20595117.txt
+  995  head 20595117.txt 
+  996  awk -F"	" '{if ($3 != "0") $2 = $2 / $3}' 20595117.txt
+  997  head 20595117.txt 
+  998  awk -F"	" '{if ($3 != "0") print $2/$3}' 20595117.txt
+  999  awk -F"	" '{if ($3 != "0") $2=$2/$3}' 20595117.txt
+ 1000  head 20595117.txt 
+ 1001  awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "UND"}1' 20595117.txt | sort -nr -k 4
+ 1002  head 20595117.txt
+ 1003  awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "UND"}1' 20595117.txt | sort -nr -k 4
+ 1004  cat 20595117.txt 
+ 1005  awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "UND"}1' 20595117.txt | sort -nr -k 4 > 20595117.sorted.txt 
+ 1006  head 20595117.sorted.txt 
+ 1007  awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' 20595117.txt | sort -n -k 4 > 20595117.sorted.txt 
+ 1008  head 20595117.sorted.txt 
+ 1009  vi 20595117.sorted.txt 
+ 1010  for f in *.txt; do awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f ; sort -n -k 4 > $f.sorted.txt ; done
+ 1011  for f in *.txt; do awk -v OFS='	' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1012  ls
+ 1013  ls -alh
+ 1014  wc 30559999.txt
+ 1015  wc 30559999.txt.sorted.txt 
+ 1016  head 30559999.txt.sorted.txt 
+ 1017  for f in *.sorted.txt; awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }'; echo "$f Ctrl-V TAB $median" >> medians.txt ; done
+ 1018  for f in *.sorted.txt; awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }'; echo "$f	$median" >> medians.txt ; done
+ 1019  for f in *.sorted.txt; do awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }'; echo "$f	$median" >> medians.txt ; done
+ 1020  for f in *.sorted.txt; do awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }' $f ; echo "$f	$median" >> medians.txt ; done
+ 1021  head medians.txt 
+ 1022  for f in *.sorted.txt; do awk '{count[NR] = $4} END {(NR%2 ==1) ? $median = count[(NR + 1) / 2] : $median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }' $f ; echo "$f	$median" >> medians.txt ; done
+ 1023  tail medians.txt 
+ 1024  awk '{count[NR] = $4} END {(NR%2 ==1) ? $median = count[(NR + 1) / 2] : $median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }; print $median' 20595117.sorted.txt
+ 1025  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }; print median' 20595117.sorted.txt
+ 1026  awk -F"	" '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }' 20595117.sorted.txt
+ 1027  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 }; print $median' 20595117.sorted.txt
+ 1028  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print median}' 20595117.sorted.txt
+ 1029  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2}' 20595117.sorted.txt; echo $median
+ 1030  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; echo "$f	median"}' 20595117.sorted.txt
+ 1031  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; echo "$f	$median"}' 20595117.sorted.txt
+ 1032  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print "$f	median"}' 20595117.sorted.txt
+ 1033  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print "f	median"}' 20595117.sorted.txt
+ 1034  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print f	median}' 20595117.sorted.txt
+ 1035  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; sprintf "%s	%f, $f, median"}' 20595117.sorted.txt
+ 1036  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; sprintf ("%s	%f", $f, median)}' 20595117.sorted.txt
+ 1037  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; sprintf ("%s", $f)}' 20595117.sorted.txt
+ 1038  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; sprintf ("$f")}' 20595117.sorted.txt
+ 1039  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; sprintf ("f")}' 20595117.sorted.txt
+ 1040  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print median}' 20595117.sorted.txt
+ 1041  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print f}' 20595117.sorted.txt
+ 1042  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print $f}' 20595117.sorted.txt
+ 1043  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print($f	median)} >> medians.txt' $f
+ 1044  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print($f	median)}' >> medians.txt' $f
+ 1045  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print($f	median) >> medians.txt}' $f
+ 1046  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median >> medians.txt}' $f
+ 1047  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median >> medians.txt}' $f ; done
+ 1048  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median; >> medians.txt}' $f ; done
+ 1049  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median}' $f ; done
+ 1050  for f in *.sorted.txt; do  awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median}' $f >> medians.txt; done
+ 1051  tail medians.txt 
+ 1052  head medians.txt 
+ 1053  for f in *.sorted.txt; do  echo $f ; awk '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2 ; print	median}' $f >> medians.txt; done
+ 1054  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f	median)}' $f >> medians.txt; done
+ 1055  tail medians.txt 
+ 1056  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f "	" median)}' $f >> medians.txt; done
+ 1057  tail medians.txt 
+ 1058  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median = $(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 > median) ? "1" : "0"}1' $f >> $id.BINARY.txt
+ 1059  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median = $(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 > median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1060  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 > median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1061  grep 20595117  medians.txt | cut -d ' ' -f2
+ 1062  vi medians.txt 
+ 1063  grep 20595117  medians.txt | cut -d ' ' -f2
+ 1064  grep 20595117  medians.txt | cut -d '	' -f2
+ 1065  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 > median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1066  gre
+ 1067  ls -alh
+ 1068  rm -r 20595117.sorted.txt 20595117.sorted.txt.sorted.txt 20595117.sorted.txt.sorted.txt.sorted.txt 
+ 1069  head 20595117.BINARY.txt 
+ 1070  head 20595117.txt.sorted.txt 
+ 1071  tail 20595117.BINARY.txt 
+ 1072  median = grep 20595117  medians.txt | cut -d ' ' -f
+ 1073  median = grep 20595117  medians.txt | cut -d ' ' -f2
+ 1074  export median=grep 20595117  medians.txt | cut -d ' ' -f2
+ 1075  export median=$(grep 20595117  medians.txt | cut -d ' ' -f2)
+ 1076  echo $median
+ 1077  export median=grep 20595117  medians.txt | cut -d '	' -f2
+ 1078  export median=$(grep 20595117  medians.txt | cut -d '	' -f2)
+ 1079  echo $median
+ 1080  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{print median; $2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY2.txt ; done
+ 1081  head 20595117.BINARY2.txt 
+ 1082  tail 20595117.BINARY2.txt 
+ 1083  tail 20595117.txt.sorted.txt 
+ 1084  head 20595117.txt.sorted.txt 
+ 1085  vi 20595117.BINARY2.txt 
+ 1086  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d 'Ctrl-V TAB' -f2) ; awk -v OFS='Ctrl-VTAB' median=$median '{print median; $2 = (
+ 1087  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' median=$median '{print median; $2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY3.txt ; done
+ 1088  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{print median; $2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY3.txt ; done
+ 1089  head 20595117.BINARY3.txt 
+ 1090  vi 20595117.BINARY3.txt 
+ 1091  for f in *.BINARY3.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:4 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id	$corr" >>corr_customers; done
+ 1092  ls
+ 1093  head corr_customers 
+ 1094  for f in *.BINARY3.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id	$corr" >>corr_customers; done
+ 1095  head 20595117.BINARY3.txt 
+ 1096  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY4.txt ; done
+ 1097  ls
+ 1098  head 20595117.BINARY4.txt 
+ 1099  for f in *.BINARY4.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id	$corr" >>corr_customers; done
+ 1100  head corr_customers 
+ 1101  for f in *.BINARY4.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:4 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id	$corr" >>corr_customers; done
+ 1102  head corr_customers 
+ 1103  tail corr_customers 
+ 1104  cd ~
+ 1105  cd gnuplot-5.4.2/
+ 1106  ll
+ 1107  ./configure
+ 1108  make
+ 1109  make check
+ 1110  cr
+ 1111  gnuplot
+ 1112  cd gnuplot-5.4.2/docs/
+ 1113  cd ..
+ 1114  cd src/
+ 1115  ll
+ 1116  ls *gnu*
+ 1117  ./gnuplot
+ 1118  echo $PATH
+ 1119  cd ..
+ 1120  cd src/
+ 1121  pwd
+ 1122  export PATH="/home/yehia/gnuplot-5.4.2/src:$PATH"
+ 1123  echo $PATH
+ 1124  cd ..
+ 1125  ll
+ 1126  cd worksheet7/
+ 1127  ll
+ 1128  gnuplot
+ 1129  exit
+ 1130  cd assignment2
+ 1131  ls
+ 1132  cd CUSTOMERS/
+ 1133  ls
+ 1134  head corr_customers 
+ 1135  cd ~
+ 1136  cd assignment3/CUSTOMERS/
+ 1137  ls
+ 1138  cd temp
+ 1139  ls
+ 1140  head corr_customers 
+ 1141  for f in *.BINARY4.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_customers1; done
+ 1142  head corr_customers1
+ 1143  head 20595117.BINARY4.txt 
+ 1144  for f in *.BINARY4.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:4 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_customers; done
+ 1145  head corr_customers corr_customers1
+ 1146  tail corr_customers
+ 1147  cat corr_customers
+ 1148  exit
+ 1149  cd assignment3
+ 1150  less a3.txt 
+ 1151  head a3.txt 
+ 1152  cd ~/gnuplot-5.4.2/src/
+ 1153  ./gnuplot
+ 1154  cd ../../assignment3
+ 1155  awk -F "\t" '/043935806X/ {print($9,$14}' ../amazon_reviews_us_Books_v1_02.tsv > 043935806X.txt
+ 1156  awk -F "\t" '/043935806X/ {print($9,$14)}' ../amazon_reviews_us_Books_v1_02.tsv > 043935806X.txt
+ 1157  head 043935806X.txt 
+ 1158  vi sedfile
+ 1159  sed -i -f sedfile 043935806X.txt
+ 1160  head 043935806X.txt 
+ 1161  sed -i -f sedfile 043935806X.txt
+ 1162  head 043935806X.txt 
+ 1163  vi sedfile
+ 1164  sed -i -f sedfile 043935806X.txt
+ 1165  head 043935806X.txt 
+ 1166  tail 043935806X.txt 
+ 1167  vi sedfile
+ 1168  sed -i -f sedfile 043935806X.txt
+ 1169  tail 043935806X.txt 
+ 1170  cat 043935806X.txt | awk '$1=="1" {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1171  cat 043935806X.txt | awk '$1=="0" {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1172  cd assignment3
+ 1173  for num in `tr -s " " < 100_product_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > PRODUCTS/$num.txt ; done
+ 1174  cd PRODUCTS/
+ 1175  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1176  ls
+ 1177  head 044652252X.txt.sorted.txt 
+ 1178  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f "	" median)}' $f >> medians.txt; done
+ 1179  head medians.txt 
+ 1180  rm medians.txt 
+ 1181  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f, median)}' $f >> medians.txt; done
+ 1182  head medians.txt 
+ 1183  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1184  head 044652252X.BINARY.txt 
+ 1185  for f in *.BINARY.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_products_BINARY; done
+ 1186  head corr_products_BINARY 
+ 1187  sort -nr -k2 corr_products_BINARY | head
+ 1188  sort 0060875410.BINARY.txt 0060875410.BINARY.txt.sorted
+ 1189  sort 0060875410.BINARY.txt > 0060875410.BINARY.txt.sorted
+ 1190  head 0060875410.BINARY.txt.sorted 
+ 1191  head 0060875410.BINARY.txt
+ 1192  awk '{print(NR,$1)}' 0060875410.BINARY.txt.sorted > 0060875410.BINARY.txt.ratings
+ 1193  awk '{print(NR,$2)}' 0060875410.BINARY.txt.sorted > 0060875410.BINARY.txt.helpfulness
+ 1194  head 0060875410.BINARY.txt.ratings 0060875410.BINARY.txt.helpfulness
+ 1195  cd assignment3/CUSTOMERS/temp/
+ 1196  ls
+ 1197  head corr_customers
+ 1198  tail corr_customers
+ 1199  ls
+ 1200  tail corr_customers corr_customers1
+ 1201  head 30559999.BINARY4.txt 30559999.txt
+ 1202  ls
+ 1203  head 30559999.txt.sorted.txt 30559999.BINARY4.txt 30559999.BINARY3.txt 30559999.BINARY2.txt 30559999.BINARY.txt
+ 1204  tail 30559999.txt.sorted.txt 30559999.BINARY4.txt 30559999.BINARY3.txt 30559999.BINARY2.txt 30559999.BINARY.txt
+ 1205  rm -r *.BINARY.txt
+ 1206  ls
+ 1207  rm *.BINARY2.txt
+ 1208  ls
+ 1209  rm *.BINARY3.txt
+ 1210  ls
+ 1211  sort 30559999.BINARY4.txt > 30559999.BINARY4.txt.sorted
+ 1212  head 30559999.BINARY4.txt.sorted 
+ 1213  awk -F"\t" '{print NR, $1}' 30559999.BINARY4.txt.sorted > 30559999.BINARY4.txt.ratings
+ 1214  head 30559999.BINARY4.txt.r
+ 1215  head 30559999.BINARY4.txt.ratings 
+ 1216  awk -F"\t" '{print NR, $2}' 30559999.BINARY4.txt.sorted > 30559999.BINARY4.txt.helpfulness
+ 1217  head 30559999.BINARY4.txt.helpfulness 
+ 1218  awk -F"\t" '{print NR, $4}' 30559999.BINARY4.txt.sorted > 30559999.BINARY4.txt.normalized
+ 1219  head 30559999.BINARY4.txt.normalized 
+ 1220  gnuplot
+ 1221  cd ~
+ 1222  gnuplot-5.4.2/
+ 1223  cd gnuplot-5.4.2/
+ 1224  gnuplot
+ 1225  cd src/
+ 1226  gnuplot
+ 1227  ./gnuplot
+ 1228  cd ..
+ 1229  make check
+ 1230  cd src/
+ 1231  gnuplot
+ 1232  ./gnuplot
+ 1233  cd ..
+ 1234  ls
+ 1235  vi Makefile
+ 1236  echo $GNUPLOT_DRIVER_DIR
+ 1237  export GNUPLOT_DRIVER_DIR=~/gnuplot-5.4.2/
+ 1238  cd src
+ 1239  ./gnuplot
+ 1240  find -f gnuplot_x11
+ 1241  find gnuplot_x11
+ 1242  ls
+ 1243  export GNUPLOT_DRIVER_DIR=~/gnuplot-5.4.2/src/gnuplot_x11 
+ 1244  ./gnuplot
+ 1245  export GNUPLOT_DRIVER_DIR=~/gnuplot-5.4.2/src 
+ 1246  ./gnuplot
+ 1247  cd ~
+ 1248  rm -rf assignment3
+ 1249  ls
+ 1250  tmux -ls
+ 1251  tmux -ll
+ 1252  tmux -l
+ 1253  tmux ls
+ 1254  help tmux
+ 1255  tmux kill-session -t 1
+ 1256  tmux ls
+ 1257  tmux kill-session -t 0
+ 1258  tmux ls
+ 1259  tmux new-session -s Assignment3
+ 1260  cd assignment3/CUSTOMERS/
+ 1261  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1262  rm *.BINARY.txt
+ 1263  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median = $median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1264  rm *.BINARY.txt
+ 1265  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$(median) '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1266  rm *.BINARY.txt
+ 1267  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1268  rm *.BINARY.txt
+ 1269  echo $median
+ 1270  rm *.BINARY.txt
+ 1271  head medians.txt 
+ 1272  vi medians.txt 
+ 1273  export median=$(grep $f medians.txt | cut -d '      ' -f2)
+ 1274  export median=$(grep $f medians.txt | cut -d '	' -f2)
+ 1275  echo median
+ 1276  echo $median
+ 1277  export median=$(grep $f medians.txt | cut -d ' ' -f2)
+ 1278  echo $median
+ 1279  echo $f
+ 1280  less 43546353.txt.sorted.txt
+ 1281  grep $f medians.txt
+ 1282  grep $f medians.txt | cut -d ' ' -f2
+ 1283  grep $f medians.txt | cut -d '	' -f2
+ 1284  grep $f medians.txt | cut -d '	' -f1
+ 1285  grep $f medians.txt | cut -d '	' -f2
+ 1286  grep $f medians.txt | cut -d '	' -f3
+ 1287  tmux attach -t Assignment3
+ 1288  vi assignment3/a3.txt
+ 1289  rm -rf assignment3
+ 1290  mkdir assignment3
+ 1291  cd assignment3
+ 1292  script a3.txt
+ 1293  cp ../assignment2/100_customer_ids.txt 100_customer_ids.txt
+ 1294  cp ../assignment2/100_product_ids.txt 100_product_ids.txt
+ 1295  ls
+ 1296  mkdir CUSTOMERS
+ 1297  mkdir PRODUCTS
+ 1298  for num in `tr -s " " < 100_customer_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > CUSTOMERS/$num.txt ; done
+ 1299  for num in `tr -s " " < 100_product_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > PRODUCTS/$num.txt ; done
+ 1300  cd CUSTOMERS
+ 1301  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1302  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f,median)}' $f >> medians.txt; done
+ 1303  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1304  ls
+ 1305  head 51110953.BINARY.txt
+ 1306  cd ../PRODUCTS/
+ 1307  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1308  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f,median)}' $f >> medians.txt; done
+ 1309  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1310  ls
+ 1311  head 0671027344.BINARY.txt
+ 1312  for f in *.BINARY.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_products_BINARY; done
+ 1313  mkdir assignment3
+ 1314  cd assignment3
+ 1315  script a3.txt
+ 1316  cp ../assignment2/100_customer_ids.txt 100_customer_ids.txt
+ 1317  ls
+ 1318  cp ../assignment2/100_product_ids.txt 100_product_ids.txt
+ 1319  ls
+ 1320  mkdir CUSTOMERS
+ 1321  mkdir PRODUCTS
+ 1322  ls
+ 1323  for num in `tr -s " " < 100_customer_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > CUSTOMERS/$num.txt ; done
+ 1324  cd CUSTOMERS/
+ 1325  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1326  ls
+ 1327  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f "       " median)}' $f >> medians.txt; done
+ 1328  head medians.txt 
+ 1329  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1330  ls
+ 1331  vi 30559999.BINARY.txt 
+ 1332  rm *.BINARY.txt
+ 1333  ls
+ 1334  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1335  rm *.BINARY.txt
+ 1336  ls
+ 1337  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1338  rm *.BINARY.txt
+ 1339  head medians.txt 
+ 1340  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS="	" -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1341  rm *.BINARY.txt
+ 1342  ls
+ 1343  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '\t' -f2) ; awk -v OFS='\t' -v median=$median -v f=$f '{$2 = ($4 >=  median) ? "1" : "0"}' f >> $id.BINARY.txt ; done
+ 1344  ls
+ 1345  rm *.BINARY.txt
+ 1346  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='\t' -v median=$median -v f=$f '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.
+ 1347  rm *.BINARY.txt
+ 1348  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS="	" -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1349  rm *.BINARY.txt
+ 1350  ls
+ 1351  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2); awk -v OFS="	" -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1352  rm *.BINARY.txt
+ 1353  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2); awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1354  rm *.BINARY.txt
+ 1355  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2); awk '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1356  ls
+ 1357  less 20595117.BINARY.txt 
+ 1358  rm *.BINARY.txt
+ 1359  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2); awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1360  rm *.BINARY.txt
+ 1361  history
+ 1362  history | grep $median
+ 1363  history | grep "$median"
+ 1364  history | grep median
+ 1365  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2); awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1366  rm *.BINARY.txt
+ 1367  history | grep median
+ 1368  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY1.txt ; done
+ 1369  rm *.BINARY.txt
+ 1370  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v OFS='	' -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1371  rm *.BINARY.txt
+ 1372  head 20595117.txt.sorted.txt 
+ 1373  vi 20595117.txt.sorted.txt 
+ 1374  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1375  rm *.BINARY.txt
+ 1376  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d '	' -f2) ; awk '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1377  rm *.BINARY.txt
+ 1378  rm medians.txt 
+ 1379  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f,median)}' $f >> medians.txt; done
+ 1380  head medians.txt 
+ 1381  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1382  head 20595117.BINARY.txt 
+ 1383  grep 20595117.txt medians.txt | cut -d ' ' -f2
+ 1384  rm *.BINARY.txt
+ 1385  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}' $f >> $id.BINARY.txt ; done
+ 1386  head 20595117.BINARY.txt 
+ 1387  rm *.BINARY.txt
+ 1388  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1389  head 20595117.BINARY.txt 
+ 1390  for f in *.BINARY.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_customers_BINARY; done
+ 1391  head corr_customers_BINARY 
+ 1392  sort -nr -k2 corr_customers_BINARY 
+ 1393  sort -nr -k2 corr_customers_BINARY | head
+ 1394  echo $GNUPLOT_DRIVER_DIR 
+ 1395  cd ~/gnuplot-5.4.2/src
+ 1396  gnuplot
+ 1397  ./gnuplot
+ 1398  cd ~/assignment3/CUSTOMERS/
+ 1399  sort 53071109.BINARY.txt > 53071109.BINARY.txt.sortedsort 53071109.BINARY.txt > 53071109.BINARY.txt.sorted
+ 1400  awk '{print NR, $1}' 53071109.BINARY.txt.sorted > 53071109.BINARY.txt.ratings
+ 1401  head 53071109.BINARY.txt 53071109.BINARY.txt.sorted 
+ 1402  awk '{print NR, $1}' 53071109.BINARY.txt.sorted > 53071109.BINARY.txt.ratings
+ 1403  head 53071109.BINARY.txt.ratings 
+ 1404  awk '{print NR, $2}' 53071109.BINARY.txt.sorted > 53071109.BINARY.txt.helpfulness
+ 1405  head 53071109.BINARY.txt.helpfulness 
+ 1406  mkdir CUSTOMERS
+ 1407  mkdir PRODUCTS
+ 1408  cp ../assignment2/100_customer_ids.txt 100_customer_ids.txt
+ 1409  cp ../assignment2/100_product_ids.txt 100_product_ids.txt
+ 1410  for num in `tr -s " " < 100_customer_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > CUSTOMERS/$num.txt ; done
+ 1411  for num in `tr -s " " < 100_product_ids.txt | cut -d " " -f3`; do cat ../amazon_reviews_us_Books_v1_02.tsv | grep "$num" | cut -f 8,9,10 > PRODUCTS/$num.txt ; done
+ 1412  cd CUSTOMERS/
+ 1413  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1414  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f,median)}' $f >> medians.txt; done
+ 1415  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1416  ls
+ 1417  head 52173832.BINARY.txt
+ 1418  cd ../PRODUCTS/
+ 1419  for f in *.txt; do awk -v OFS='   ' '{$4 = ($3 != 0) ? sprintf("%.3f", $2 / $3) : "0"}1' $f | sort -n -k 4 > $f.sorted.txt ; done
+ 1420  for f in *.sorted.txt; do awk -v f=$f '{count[NR] = $4} END {(NR%2 ==1) ? median = count[(NR + 1) / 2] : median = (count[(NR / 2)] + count[(NR / 2) + 1]) / 2; print(f,median)}' $f >> medians.txt; done
+ 1421  for f in *.sorted.txt; do id=$(echo $f | cut -d '.' -f1); median=$(grep $f medians.txt | cut -d ' ' -f2) ; awk -v median=$median '{$2 = ($4 >=  median) ? "1" : "0"}1' $f >> $id.BINARY.txt ; done
+ 1422  ls
+ 1423  head 0553272535.BINARY.txt
+ 1424  for f in *.BINARY.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_products_BINARY; done
+ 1425  head corr_products_BINARY 
+ 1426  cd ../CUSTOMERS/
+ 1427  for f in *.BINARY.txt; do corr=`~/datamash-1.3/datamash -W ppearson 1:2 < $f`; id=$(echo $f | cut -d '.' -f1); echo "$id $corr" >>corr_customers_BINARY; done
+ 1428  head corr_customers_BINARY 
+ 1429  sort corr_customers_BINARY | head
+ 1430  sort -nr -k2 corr_customers_BINARY | head
+ 1431  sort 53071109.BINARY.txt > 53071109.BINARY.txt.sorted
+ 1432  head 53071109.BINARY.txt.sorted 
+ 1433  awk '{print NR, $1}' 53071109.BINARY.txt.sorted > 53071109.BINARY.txt.ratings
+ 1434  awk '{print NR, $2}' 53071109.BINARY.txt.sorted > 53071109.BINARY.txt.helpfulness
+ 1435  head 53071109.BINARY.txt.ratings 53071109.BINARY.txt.helpfulness 
+ 1436  cd ../PRODUCTS/
+ 1437  sort -nr -k2 corr_products_BINARY | head
+ 1438  sort 0060875410.BINARY.txt > 0060875410.BINARY.txt.sorted
+ 1439  awk '{print(NR,$1)}' 0060875410.BINARY.txt.sorted > 0060875410.BINARY.txt.ratings
+ 1440  awk '{print(NR,$2)}' 0060875410.BINARY.txt.sorted > 0060875410.BINARY.txt.helpfulness
+ 1441  head 0060875410.BINARY.txt.ratings 0060875410.BINARY.txt.helpfulness 
+ 1442  cd ~/gnuplot-5.4.2/src
+ 1443  ./gnuplot
+ 1444  export GNUPLOT_DRIVER_DIR=~/gnuplot-5.4.2/src
+ 1445  ./gnuplot
+ 1446  cd ~/assignment3
+ 1447  awk -F "\t" '/043935806X/ {print($9,$14)}' ../amazon_reviews_us_Books_v1_02.tsv > 043935806X.txt
+ 1448  vi sedfile
+ 1449  head -n1 043935806X.txt 
+ 1450  sed -i -f sedfile 043935806X.txt
+ 1451  head -n1 043935806X.txt 
+ 1452  cat 043935806X.txt | awk '$1=="1" {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1453  cat 043935806X.txt | awk '$1=="0" {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1454  mkdir assignment3
+ 1455  cd assignment3
+ 1456  script a3.txt
+ 1457  perl -pe 's/\x1b\[[0-9;]*[mG]//g' a3.txt > a3.txt.clean
+ 1458  tr -cd '\11\12\15\40-\176' < a3.txt.clean > a3.txt.clean2
+ 1459  sed -i "s///g" a3.txt.clean2
+ 1460  vi a3.txt.clean2
+ 1461  ls CUSTOMERS/
+ 1462  ls PRODUCTS/
+ 1463  git init
+ 1464  git add a3.txt.clean2
+ 1465  git add CUSTOMERS/A3Customers.PNG 
+ 1466  git add PRODUCTS/A3Products.PNG 
+ 1467  git status
+ 1468  git commit -m "Assignment3"
+ 1469  git remote add origin https://github.com/jihanyehia/Assignment3.git
+ 1470  git branch -M main
+ 1471  git push -u origin main
+ 1472  exit
+ 1473  ls
+ 1474  vi assignment3/a3.txt 
+ 1475  rm -rf assignment3
+ 1476  tmux ls
+ 1477  tmux kill-session -t Assignment3
+ 1478  tmux ls
+ 1479  tmux
+ 1480  exit
+ 1481  cd worksheet2
+ 1482  ls
+ 1483  cat counts.txt 
+ 1484  head verified.txt 
+ 1485  cd ..
+ 1486  mkdir worksheet8
+ 1487  cd worksheet8
+ 1488  awk -F"\t" '$12~/Y/' ../amazon_reviews_us_Books_v1_02.tsv >> verified.txt
+ 1489  head verified.txt 
+ 1490  head -n 1../amazon_reviews_us_Books_v1_02.tsv 
+ 1491  head -n 1 ../amazon_reviews_us_Books_v1_02.tsv 
+ 1492  wc -l verified.txt 
+ 1493  cat ../worksheet2/counts.txt 
+ 1494  head -n 100 verified.txt > 100_verified.txt
+ 1495  wc -l 100_verified.txt 
+ 1496  head -n 100 unverified.txt > 100_unverified.txt
+ 1497  awk -F"\t" '$12~/N/' ../amazon_reviews_us_Books_v1_02.tsv >> unverified.txt
+ 1498  head -n 100 unverified.txt > 100_unverified.txt
+ 1499  wc -l unverified.txt 
+ 1500  wc -l 100_unverified.txt 
+ 1501  head 100_unverified.txt 
+ 1502  cat 100_verified.txt | awk {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1503  cat 100_verified.txt | awk {for(i=1;i<=NF;++i){D[$i]++}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1504  cat 100_verified.txt | awk {for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1505  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1506  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1507  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 20
+ 1508  head -n 100 verified.txt | cut -f14 > 100_verified.txt
+ 1509  head 100_verified.txt 
+ 1510  head -n 100 unverified.txt | cut -f14 > 100_unverified.txt
+ 1511  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1512  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 20
+ 1513  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 20
+ 1514  vi sedfile
+ 1515  sed -i -f sedfile 100_verified.txt 
+ 1516  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 20
+ 1517  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1518  sed -i -f sedfile 100_unverified.txt 
+ 1519  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 20
+ 1520  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1521  exit
+ 1522  awk -F"\t" '$12~/Y/' ../amazon_reviews_us_Books_v1_02.tsv >> verified.txt
+ 1523  awk -F"\t" '$12~/N/' ../amazon_reviews_us_Books_v1_02.tsv >> unverified.txt
+ 1524  head -n 100 verified.txt | cut -f14 > 100_verified.txt
+ 1525  head -n 100 unverified.txt | cut -f14 > 100_unverified.txt
+ 1526  vi sedfile
+ 1527  sed -i -f sedfile 100_verified.txt
+ 1528  sed -i -f sedfile 100_unverified.txt
+ 1529  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1530  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1531  vi sed file
+ 1532  ls
+ 1533  vi sedfile 
+ 1534  sed -i -f sedfile 100_verified.txt
+ 1535  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1536  vi sedfile
+ 1537  sed -i -f sedfile 100_unverified.txt
+ 1538  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1539  head 100_unverified.txt 
+ 1540  vi sedfile 
+ 1541  sed -i -f sedfile 100_unverified.txt
+ 1542  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1543  vi sedfile
+ 1544  sed s/\'//g 100_unverified.txt > test.txt
+ 1545  head test.txt 
+ 1546  head 100_unverified.txt 
+ 1547  vi sedfile
+ 1548  sed -i -f sedfile 100_unverified.txt
+ 1549  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1550  cat test.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1551  sed -f sedfile 100_unverified.txt > test2.txt
+ 1552  cat test2.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1553  vi sedfile
+ 1554  history > cmds.log
+ 1555  rm cmds.log 
+ 1556  vi sedfile
+ 1557  sed -f sedfile 100_unverified.txt > test2.txt
+ 1558  vi sedfile
+ 1559  sed -f sedfile 100_unverified.txt > test2.txt
+ 1560  cat test2.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1561  rm test2.txt test.txt 
+ 1562  ls
+ 1563  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1564  sed -i -f sedfile 100_verified.txt
+ 1565  sed -i -f sedfile 100_unverified.txt
+ 1566  cat 100_verified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1567  cat 100_unverified.txt | awk '{for(i=1;i<=NF;++i){D[$i]++}}END{for(k in D)print k, D[k]}' | sort -k2nr | head -n 10
+ 1568  history > cmds.log
